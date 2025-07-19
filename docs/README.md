@@ -9,7 +9,7 @@ config:
       dark: 0.3
     hero:
       name: LKOSelf
-      tagline: Front End Developer!
+      tagline: Live and learn!
       text: 欢迎来到我的博客，愿这里的每一个字句都能与你共鸣。
       actions:
         - text: 我的博客
@@ -19,3 +19,4 @@ config:
           link: https://github.com/pengzhanbo
           theme: alt
 ---
+<imageInfo />

@@ -1,6 +1,6 @@
 import { defineClientConfig } from 'vuepress/client'
 import './theme/styles/index.scss'
-import homeView from './theme/components/HomeView.vue'
+import imageInfo from './theme/components/ImageInfo.vue';
 // import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 // import NpmBadge from 'vuepress-theme-plume/features/NpmBadge.vue'
 // import NpmBadgeGroup from 'vuepress-theme-plume/features/NpmBadgeGroup.vue'
@@ -17,8 +17,10 @@ export default defineClientConfig({
     // app.component('NpmBadge', NpmBadge)
     // app.component('NpmBadgeGroup', NpmBadgeGroup)
     // app.component('Swiper', Swiper) // you should install `swiper`
-    app.component('homeView', homeView)
     // your custom components
     // app.component('CustomComponent', CustomComponent)
+  },
+  layouts: {
+    imageInfo,
   },
 })
