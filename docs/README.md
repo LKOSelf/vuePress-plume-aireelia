@@ -1,6 +1,6 @@
 ---
 pageLayout: home
-pageClass: home
+pageClass: homePage
 config:
   - type: banner
     banner: https://api.pengzhanbo.cn/wallpaper/bing
@@ -19,4 +19,3 @@ config:
           link: https://github.com/pengzhanbo
           theme: alt
 ---
-<imageInfo />
